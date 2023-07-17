@@ -565,6 +565,7 @@ p,h3,h2{
   width: 100px;
   height: 100px;
   margin-right: 10px;
+  padding-left: 2px;
 }
 
 .basket-image img {
