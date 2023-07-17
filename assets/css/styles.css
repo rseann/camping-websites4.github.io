@@ -562,10 +562,10 @@ p,h3,h2{
 }
 
 .basket-image {
-  width: 120px;
-  height: 100px;
+  width: 150px;
+  height: 120px;
   margin-right: 7px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .basket-image img {
@@ -625,55 +625,6 @@ p,h3,h2{
 }
 
 
-/* Reviews */
-/* 
-.reviews-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.review {
-  width: 48%;
-  background-color: #f8f8f8;
-  border: 1px solid #e0e0e0;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.review-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.review-header img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.review-header h3 {
-  margin: 0;
-}
-
-.review-content {
-  margin-bottom: 10px;
-}
-
-.review-rating {
-  margin-top: 10px;
-}
-
-.rating {
-  color: gold;
-} */
-
-
 .camp-reviews{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(247px,1fr));
@@ -694,6 +645,7 @@ p,h3,h2{
   height: 50px;
   border-radius: 50%;
   margin-right: 10px;
+  object-fit: cover;
 }
 
 .user-name {
