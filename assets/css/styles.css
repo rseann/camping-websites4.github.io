@@ -487,6 +487,10 @@ p,h3,h2{
   object-fit: cover;
 }
 
+.camp-furniture .card .name{
+  font-size: 13px;
+  font-family: var(--font-family);
+}
 .price-tag {
   font-size: 18px;
   font-weight: bold;
